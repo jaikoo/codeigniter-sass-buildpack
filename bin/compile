@@ -16,6 +16,6 @@ gem install compass --no-rdoc --no-ri --install-dir "$PWD/.gem"
 echo "done"
 
 echo "-----> Compiling Compass"
-cd $BUILD_DIR/assets
-$PWD/.gem/bin/compass compile sass/v1/index.scss
+# We assume that you've got a config.rb in your project root
+$PWD/.gem/bin/compass compile
 echo "done"
