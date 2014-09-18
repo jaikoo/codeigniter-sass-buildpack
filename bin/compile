@@ -17,5 +17,5 @@ echo "done"
 
 echo "-----> Compiling Compass"
 # We assume that you've got a config.rb in your project root
-$PWD/.gem/bin/compass compile
+$PWD/.gem/bin/compass compile $BUILD_DIR
 echo "done"
