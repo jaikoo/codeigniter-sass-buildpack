@@ -17,5 +17,5 @@ echo "done"
 
 echo "-----> Compiling Compass"
 cd $BUILD_DIR/assets
-$BUILD_DIR/.gem/bin/compass compile sass/v1/index.scss
+$PWD/.gem/bin/compass compile sass/v1/index.scss
 echo "done"
